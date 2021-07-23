@@ -1,13 +1,24 @@
-/*https://jumanji.livspace-cdn.com/magazine/wp-content/uploads/2018/10/05203536/l-shaped-kitchen-designs_10.jpg*/
+/*https://jumanji.livspace-cdn.com/magazine/wp-content/uploads/2018/10/05203536/l-shaped-kitchen-designs_10.jpg 
+https://www.woodenstreet.com/mobile/images-m/kitchen/customer1.jpg
+
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 body {
  font-family: 'Poppins', sans-serif;
  margin: 0 auto;
+ background-color: #fef9cc;
 }
 
 /* Navbar */
+.navbar {
+  padding-right: 36px;
+  padding-left: 36px;
+  margin-bottom: 64px;
+}
  .navbar li a, .navbar .navbar-brand {
-    color: #000 !important;
+   color: #efc337 !important;
   }
   .navbar-nav li a:hover, .navbar-nav li.active a {
     color: #ffb607 !important;
@@ -26,20 +37,25 @@ body {
 /* home section */
 
 .jumbotron {
-  background-image: linear-gradient(115deg,rgba(26, 26, 26, 0.7), rgba(26, 26, 26, 0.8)), url("https://images.unsplash.com/photo-1559554704-0f74b35a8718?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80");
+  color: white;
+  background-image: linear-gradient(115deg, rgba(0, 0, 0, 0.75), rgba(26, 26, 26, 0.8)), url("https://media.designcafe.com/wp-content/uploads/2021/02/26204614/yellow-and-black-modular-kitchen.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  padding-top: 0px !important;
+  height: auto;
 } 
 
 .hero_container h1 {
-  font-size: 36px;
-  font-weight:600;
+  color: #efc337;
+  font-family: 'Playfair Display', serif;
+  font-size: 60px;
 }
 
 .hero_container p {
+  color: #efc337;
     width: 60%;
+    font-size: 18px;
 }
 
 
@@ -73,7 +89,7 @@ body {
 
 .services {
   margin: 60px 0px 50px 0px;
-  background-color: #ffb607 ;
+  background-color:#efc337/*#*//*#dca44b*//*#ffb607*/ ;
 }
 
 .services_container {
@@ -123,8 +139,8 @@ body {
 /* Contact Us ends */
 
 .contact {
-  color: #F0C38E;
- background-color: #48426D;
+  color: #efc337;
+ background-color:#19191e;
  padding: 60px 0px 30px 0px ;
 }
 
@@ -140,7 +156,8 @@ body {
   margin: 0 .5em;
 }
 
-.social-list__link {
+.
+social-list__link {
   padding: .2em;
   font-size: 2em;
 } 
@@ -151,7 +168,7 @@ body {
 .footer {
   padding: 30px;
   color: #fff;
-  background-color: #292541; 
+  background-color:  #111111; 
 } 
  
 /* footer section ends */
