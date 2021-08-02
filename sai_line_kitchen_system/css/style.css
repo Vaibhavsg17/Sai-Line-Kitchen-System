@@ -49,17 +49,31 @@ body {
 .hero_container h1 {
   color: #efc337;
   font-family: 'Playfair Display', serif;
+    width: 60%;
   font-size: 60px;
 }
 
 .hero_container p {
   color: #efc337;
     width: 60%;
-    font-size: 18px;
+    font-size: 20px !important;
 }
 
 
 @media (max-width: 576px) { 
+  .jumbotron {
+  color: white;
+  background-image: linear-gradient(115deg, rgba(0, 0, 0, 0.75), rgba(26, 26, 26, 0.8)), url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmWeVPAdcTuIemEzRV2Gzg2RQxOG1DAQYIxw&usqp=CAU");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 0px !important;
+  height: auto;
+} 
+  .hero_container h1 {
+    width: 100% !important;
+    font-size: 50px;
+  }
   .hero_container p {
     width: 100%;
   }
@@ -67,10 +81,6 @@ body {
 }
 
 /* home seection */
-
-
-
-
 
 
 
@@ -89,48 +99,31 @@ body {
 
 .services {
   margin: 60px 0px 50px 0px;
-  background-color:#efc337/*#*//*#dca44b*//*#ffb607*/ ;
+  background-color:#efc337 ;
 }
 
 .services_container {
   padding: 90px 30px 90px 30px;
+} 
+
+@media (max-width: 576px) {
+
 }
+
 /* services section ends */
 
 
 
 /* Projects */
 
-.projects {
-  margin: 30px 0px 60px 0px;
-}
-
-.nav {
-    padding:20px;
-    margin: ;
-}
-
-.nav li a { 
-    margin:5px;
-    padding: 15px 50px; 
-    font-size:16px; 
-    color:hotpink; 
-    background: #000;
-    transition-duration: 0.4s;
-}
-
-.nav a:hover { 
-    background:#333; 
-}
-.nav .active { 
-    background-color:hotpink !important;
-    color:#fff;
-}
-
 /* Projects ends */
 
 
 /* Reviews */
+.Testimonals {
+  margin: 60px 0px 50px 0px;
+  background-color:#efc337/*#*//*#dca44b*//*#ffb607*/ ;
+} 
 
 
 /* Reviews ends */
@@ -171,4 +164,4 @@ social-list__link {
   background-color:  #111111; 
 } 
  
-/* footer section ends */
+/* footer section ends 
