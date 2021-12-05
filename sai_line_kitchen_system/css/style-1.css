@@ -1,0 +1,77 @@
+/* Heading #8a2be2 
+  All text #4B0082
+  accents #ffc107 
+    background-color:#FCF5FF;*/
+body {
+    margin: 0px auto;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #4B0082;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 500;
+ }
+ 
+/* Navbar */
+
+   .navbar li a, .navbar .navbar-brand {
+     color: #000000 !important;
+    }
+
+.jumbotron {
+    background-image:url("https://images.unsplash.com/photo-1636138390625-80afec896b28?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzYwfHxraXRjaGVuJTIwaW50ZXJpb3J8ZW58MHwxfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #fff /*rgb(248, 211, 237) #FCF5FF*/; 
+    height:100vh;
+}
+
+.jumbotron h1 {
+  width: 50%;
+    color:/*#580085 #8a2be2 #b96e00*/ #b96e00;
+}
+
+.about {
+    padding: 90px 0px;
+    margin: 32px 0px;
+}
+
+.about img {
+    width: 100%;
+    height: 100%;
+}
+
+.about .col-sm-8 {
+  padding: 50px;
+}
+
+.services {
+  padding: 90px 0px;
+}
+
+.card-img-top {
+  height: 400px;
+  width: 250px;
+  margin-bottom: 10px;
+}
+
+.reviews {
+  padding: 60px 0px;
+}
+
+.consulation {
+  margin: 32px 0px 0px 0px;
+  padding: 80px 0px;
+  color: #bb33ff;
+  background-color:#FCF5FF;
+}
+
+#footer {
+  margin: 0px;
+  padding: 30px;
+  color: #4B0082;
+  background-color:#FCF5FF;
+}
