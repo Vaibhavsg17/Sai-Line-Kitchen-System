@@ -1,0 +1,128 @@
+/* Heading #8a2be2 
+  All text #4B0082
+  accents #ffc107 
+    background-color:#FCF5FF;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&family=Playfair+Display:wght@400;500;700&display=swap');
+body {
+    margin: 0px auto;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: #CB6E1C;
+}
+
+p {
+    font-size: 18px;
+}
+
+
+/* Navbar */
+
+.navbar {
+    padding: 20px 36px 0px 36px;
+}
+
+.navbar li a,
+.navbar .navbar-brand {
+    margin-right: 20px;
+    color: #000000 !important;
+}
+
+.jumbotron {
+    /* background-image:url("https://images.unsplash.com/photo-1600607686527-6fb886090705?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGtpdGNoZW4lMjBjb3VudGVyfGVufDB8MXwwfHw%3D&auto=format&fit=crop&w=500&q=60"); */
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 550px;
+    background-color: #fff/*rgb(248, 211, 237) #FCF5FF*/
+    ;
+}
+
+.jumbotron-fluid {
+    margin-bottom: 90px;
+}
+
+.display-4 {
+    /* width: 50%; */
+    color: /*#580085 #8a2be2 #b96e00*/
+    #CB6E1C;
+}
+
+.hero_img {
+    display: block;
+    height: 600px;
+}
+
+.about {
+    padding: 120px 0px;
+}
+
+.about img {
+    width: 100%;
+    height: 100%;
+}
+
+.col-sm-8 {
+    padding: 50px;
+}
+
+.services {
+    padding: 60px 0px;
+}
+
+/* .services_img {
+    height: 500px;
+    max-width: 300px;
+}*/
+
+.card-img-top {
+    height: 500px;
+    width: ;
+    margin-bottom: 10px;
+} 
+
+.reviews {
+    padding: 90px 0px;
+}
+
+.consulation {
+    padding: 80px 0px;
+}
+
+#footer {
+    margin: 0px;
+    padding: 30px;
+}
+
+#credits {
+    color: #fff;
+    background-color: #404040;
+    padding: 30px;
+}
+
+@media only screen and (max-width:600px) {
+    .jumbotron {
+        background-image: url("https://images.pexels.com/photos/4352247/pexels-photo-4352247.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #fff/*rgb(248, 211, 237) #FCF5FF*/
+        ;
+    }
+    .jumbotron-fluid {
+        margin-bottom: 90px;
+    }
+    .display-4 {
+        font-size: 35px;
+        /* width: 50%; */
+        color: /*#580085 #8a2be2 #b96e00*/
+        #CB6E1C;
+    }
+    .hero_img {
+        display: none;
+    }
+}

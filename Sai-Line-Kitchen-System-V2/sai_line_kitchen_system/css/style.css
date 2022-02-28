@@ -1,0 +1,238 @@
+/*https://jumanji.livspace-cdn.com/magazine/wp-content/uploads/2018/10/05203536/l-shaped-kitchen-designs_10.jpg 
+https://www.woodenstreet.com/mobile/images-m/kitchen/customer1.jpg
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+body {
+ font-family: 'Poppins', sans-serif;
+ margin: 0 auto;
+ background-color: /*#fef9cc*/;
+}
+
+/* Navbar */
+.navbar {
+  padding: 20px 36px 0px 36px;
+  margin-bottom: 200px;
+}
+ .navbar li a, .navbar .navbar-brand {
+   color: #ffc107 !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #ffc107 !important;
+    background-color: #fff !important;
+  }
+
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+  }
+
+@media (max-width: 576px) { 
+  .navbar {
+    margin-bottom: 60px;
+  }
+}
+
+/* home section */
+.jumbotron {
+  background-image: linear-gradient(115deg, rgba(0, 0, 0, 0.75), rgba(26, 26, 26, 0.8)), url("https://media.designcafe.com/wp-content/uploads/2021/02/26204614/yellow-and-black-modular-kitchen.jpg");
+/*  https://www.thespruce.com/thmb/Dku2oBPYvRvyfVJmwsKmbrzs9gc=/1080x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/2016-05-NormanMailerHouse-1080-7521-5a93508430371300375b441e.jpg
+https://www.thespruce.com/yellow-kitchens-4159543
+*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 0px !important;
+  padding-bottom: 80px !important;
+  height: 100vh;
+} 
+
+.hero_container h1 {
+  color: #ffc107;
+  font-family: 'Playfair Display', serif;
+  width: 60%;
+  font-size: 60px;
+}
+
+.hero_container p {
+  color: #ffc107;
+  width: 60%;
+  font-size: 20px !important;
+}
+
+
+@media (max-width: 576px) { 
+
+  .jumbotron {
+  background-image: linear-gradient(111deg, rgba(8, 8, 8,0.9), rgba(26, 26, 26, 0.6)), url("https://i.pinimg.com/736x/e2/99/53/e299534fabfd9eb7e445966d1fc59cfd.jpg");
+ background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 0px !important;
+  padding-bottom: 50px;
+  height: auto;
+  }
+
+  .hero_container {
+    padding-left:30px ;
+    padding-right:30px ;
+  } 
+
+  .hero_container h1 {
+    width: 100% !important;
+    font-size: 45px;
+    margin-bottom: 16px;
+  }
+  .hero_container p {
+    width: 100%;
+  }
+
+}
+
+/* home seection */
+
+
+
+/* About section */
+.about {
+    padding: 36px;
+} 
+
+.col-sm-8 p {
+    width: 100%;
+  } 
+/* About Section ends */ 
+
+
+/* Services section  */
+
+.services {
+  margin: 60px 0px;
+  padding: 60px 0px 70px 0px;
+  background-color:#efc337 ;
+}
+
+
+.services_container img {
+    height: 200px;
+}  
+
+@media (max-width: 576px) {
+  .services_container img {
+    height: 290px;
+  }  
+}
+
+/* services section ends */
+
+
+
+/* Projects */
+#tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #ffc107;
+    background-color: transparent;
+    border-color: transparent transparent #ffc107;
+    border-bottom: 4px solid !important;
+    font-size: 16px;
+    font-weight: bold;
+}
+#tabs .nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    color: #ffc107;
+    font-size: 16px;
+}
+
+.project_container  {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto !important;
+} 
+
+.m_k_img {
+  width: 300px !important;
+  height: 250px !important;
+  margin: 10px`;
+} 
+
+@media (max-width: 576px) { 
+  .project_container  {
+    display: flex;
+    justify-content: center;
+    margin: 0px  !important;
+  } 
+
+  .m_k_img {
+    width: 250px !important;
+    height: 250px !important;
+    margin: 10px ;
+  } 
+}
+/* Projects ends */
+
+
+/* Reviews */
+.Testimonals {
+  margin-top: 60px;
+  padding: 60px 30px 70px 30px;
+  background-color:#efc337/*#*//*#dca44b*//*#ffb607*/ ;
+} 
+
+
+/* Reviews ends */
+
+
+/* Contact Us ends */
+
+.contact {
+  color: #efc337;
+ background-color:#19191e;
+ padding: 60px 0px 30px 0px ;
+}
+
+.social-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 2em 0 0;
+  padding: 0;
+}
+
+.social-list__item {
+  margin: 0 .5em;
+}
+
+.social-list__link {
+  padding: .2em;
+  font-size: 2em;
+} 
+
+/* Contact Us section ends*/
+
+/* Footer section  */
+.footer {
+  padding: 30px;
+  color: #fff;
+  background-color:  #111111; 
+} 
+ 
+/* footer section ends 
+
+/* Line breaker */
+.under-scope {
+  width: 150px; 
+  border-top: 3px solid #8c8b8b; 
+  margin: 10px auto 0px auto; 
+} 
+
+@media (max-width: 576px) { 
+  .under-scope {
+    width: 140px; 
+    border-top: 3px solid #8c8b8b; 
+    margin: 10px auto 0px auto; 
+  }  
+}
+/* Line breaker ends */
